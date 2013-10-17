@@ -1,0 +1,36 @@
+html, body { margin:0; padding:0; }
+.wrapper { width:1000px; margin:0 auto; }
+a img { border: 0; }
+
+/************************ Header **************************/
+
+
+/************************ Top Content Section ****************/
+
+
+/************************ Content Section *******************/
+
+
+/************************ Footer Section *********************/
+
+
+/************************ ClearFix Section *******************/
+.clfx:before, .clfx:after { content: ""; display: table; }
+.clfx:after { clear: both; }
+.clfx { zoom: 1; }
+
+/************************ Respons Section *******************/
+
+/* Desktops and laptops  */
+@media only screen and (max-width : 1000px) {
+    .wrapper { width: 90%; margin: 0 5%; }
+    
+}
+
+@media only screen and (max-width : 650px) {
+   
+}
+
+@media only screen and (max-width : 400px) {
+    
+}
